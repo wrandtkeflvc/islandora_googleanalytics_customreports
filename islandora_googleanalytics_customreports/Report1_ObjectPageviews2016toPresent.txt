@@ -1,0 +1,37 @@
+===========================================
+Report 1:  Object Pageviews 2016 to present
+===========================================
+
+Section: Report Content
+
+Blank: Name
+Content:
+Object Views
+
+Blank: Type
+Content:
+Explorer
+
+Blank: Metric Groups
+Content:
+title = "Metric Groups"
+Metric 1 = "Pageviews"
+
+Blank:  Dimension Drilldowns
+Content:
+Dimension 1 = "Page path level 3"
+Dimension 2 = "Page path level 4"
+
+Blank:  Filters
+Content:
+"Include" "Page path level 1" "Exact" "/islandora/"
+and
+"Include" "Page path level 2" "Exact" "/object/"
+and
+"Exclude" "Page" "Regex" ".+\/(manage|ip_embargo|report|print_object|toc|pages|issue_pages|delete|datastream|datastreams|view_mods_as_marcxml).*"
+
+
+=================================================
+Known problems:
+This report is only looking at URLs with a trailing slash "/"
+ie. 
